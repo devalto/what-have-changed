@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>WhatHaveChanged</name>
+ <channel>pear.ada-consult.com</channel>
+ <summary>What have changed is a tool that diplays changes between two directories.</summary>
+ <description>What have changed is a tool that diplays changes between two directories. It displays changed with an output formated à-la Subversion</description>
+ <lead>
+  <name>Sylvain Filteau</name>
+  <user>cidsphere</user>
+  <email>cidsphere@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>@@DATE@@</date>
+ <time>@@TIME@@</time>
+ <version>
+  <release>@@VERSION@@</release>
+  <api>@@VERSION@@</api>
+ </version>
+ <stability>
+  <release>@@STABILITY@@</release>
+  <api>@@STABILITY@@</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="/" name="what-have-changed.php" role="script" />
+   <file baseinstalldir="/" name="WHC/Compare/Strategy/CallbackStrategy.php" role="php" />
+   <file baseinstalldir="/" name="WHC/Compare/Strategy/FileMtimeStrategy.php" role="php" />
+   <file baseinstalldir="/" name="WHC/Compare/Strategy/Md5Strategy.php" role="php" />
+   <file baseinstalldir="/" name="WHC/Compare/DirectoryCompare.php" role="php" />
+   <file baseinstalldir="/" name="WHC/Compare/FileCompareStrategy.php" role="php" />
+   <file baseinstalldir="/" name="WHC/Iterator/PathNameFilterIterator.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>@@VERSION@@</release>
+    <api>@@VERSION@@</api>
+   </version>
+   <stability>
+    <release>@@STABILITY@@</release>
+    <api>@@STABILITY@@</api>
+   </stability>
+   <date>@@DATE@@</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>-</notes>
+  </release>
+ </changelog>
+</package>
